@@ -14,6 +14,7 @@ export const SUCCESS = 'SUCCESS';
 export const FAILURE = 'FAILURE';
 
 export function loadingStart() {
+    
     return (dispatch) => {
         dispatch({ type: FETCHING })
 
